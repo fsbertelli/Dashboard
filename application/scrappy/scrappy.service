@@ -1,0 +1,10 @@
+[Unit]
+Description=Scrappy Logging Service
+
+[Service]
+Type=simple
+ExecStart=/home/lebewob/Dashboard/application/scrappy/scripts/start.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
